@@ -1,24 +1,21 @@
 
-}
+
 body{
-background-image: url(http://images2.layoutsparks.com/1/122636/tie-dye-wings-colorful.jpg);
-background-position: left 40px;
+background-image: url(http://1.bp.blogspot.com/-yVRfkVDjDJw/T9ZJYnqXCUI/AAAAAAAAAEQ/rFOOKroDfFE/s1600/-1.png);
 background-attachment: fixed;
 background-repeat: repeat;
-background-color: #BADFCD;
 }
 html, body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
-    background-color: #FF00BF;
     color: #333;
 }
 
 h1 {
 	font-weight: bold;
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 200;
-    color: #FF00BF;
+    color: #FF6600;
 }
 h2 {
     font-weight: bold;
@@ -26,7 +23,7 @@ h2 {
     font-size: 18px;
 }
 a {
-    color: #FF00BF;
+    color: #FF6600;
     text-decoration: none;
 }
 
@@ -44,8 +41,8 @@ div {
 }
 
 nav img {
-	width: 65px;
-	height: 65px;
+	width: 45px;
+	height: 45px;
 	
 }
 
