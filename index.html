@@ -4,14 +4,40 @@
         <meta charset="utf-8">
         <title>Paige Cunningham's Personal Page</title>
 
-
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" href="css/anythingslider.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        
+       <script src="js/jquery.min.js"></script>
+
+        <!-- Anything Slider -->
+        
+                
+        <script src="js/jquery.anythingslider.js">
+
+        </script>
+
+            <script>
+        // DOM Ready
+        $(function(){
+            $('#slider').anythingSlider();
+        });
+    </script>
+
         
     </head>
     <body>
+
              
         <section class="page">
+
+             <nav id="topnav">
+                <a id="home" href="http://paigecunningham.co">Home</a>
+                <a href="http://google.com">Blog</a>
+                <a href="http://facebook.com">Tumblr</a>
+                <a href="http://google.com">Quotes</a>
+                <a href="http://instagram.com">Contact</a>
+            </nav>
             <header>
                 <div>
                     <img src= "https://scontent-a-ord.xx.fbcdn.net/hphotos-prn2/4157_1054368013407_768194_n.jpg" id= "titlePicture"> 
@@ -78,8 +104,18 @@
                 </ul>
             </article>
 
-        </section>
+    
+    <ul id="slider">
 
+        <li><img src="images/paige.jpg" alt=""></li>
+
+        <li><img src="images/shane.jpg" alt=""></li>
+
+        <li><img src="images/kylie.jpg" alt=""></li>
+
+        <li><img src="images/mumanddad.jpg" alt=""></li>
+
+    </ul>
         
     </body>
 </html>
